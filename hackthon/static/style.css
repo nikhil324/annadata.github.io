@@ -1,0 +1,68 @@
+.button{
+    padding:5px 30px 5px 30px;
+    font-size:110%;
+    background-color:#0d900b;
+    border-radius: 30%; 
+
+  }
+  
+  .button:hover{
+    padding:7px 35px 7px 35px;
+    font-size:150%;
+    background-color:#92000a;
+    border-radius: 30%;
+    transition:.5s; 
+
+  }
+ .box{
+  margin-top:15px;
+
+  background-color:#e4e1e1;
+  box-shadow:10px 5px 5px 5px;
+ }
+ table,th,td{
+  border:1px solid black;
+  border-collapse: collapse;
+   }
+   th{
+    background-color: #92000a;
+   }
+   th,td{
+    padding: 10px;
+   }
+   .login{
+  width: 50%;
+  height:50vh;
+  padding-top:70px;
+  text-align: center;
+  border:4px solid #92000a;
+  box-shadow:10px 5px 5px 5px;
+
+}
+.choice{
+  width: 40%;
+  height:20vh;
+  padding-top:20px;
+  border:4px solid #92000a;
+  box-shadow:10px 5px 5px 5px;
+
+}
+.footer{
+ background-color: #92000a;
+ color:black;
+ text-align: center;
+
+}
+
+.my-custom-scrollbar {
+position: relative;
+height: 500px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+
+
+

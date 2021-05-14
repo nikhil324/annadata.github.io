@@ -1,0 +1,39 @@
+{% extends "header.html" %}
+{% block body %}
+
+    <div class="row">
+    	<div class="col-lg-1 col-sm-1">
+        </div>
+    	<div class="col-lg-2 col-sm-2">
+          <img src="/static/anna1.jpg" width="260" height="180">
+    	</div>
+    	<div class="col-lg-2 col-sm-2">
+    		 <img src="/static/anna3.jpg" width="260" height="180">
+    	</div>
+    	<div class="col-lg-2 col-sm-2">
+    	 <img src="/static/anna4.jpg" width="260" height="180">	
+    	</div>
+    	<div class="col-lg-2 col-sm-2">
+    		 <img src="/static/anna5.jpg" width="260" height="180">
+         </div>
+    	<div class="col-lg-2 col-sm-2">
+    		 <img src="/static/anna7.jpg" width="260" height="180">
+    	</div>
+    	<div class="col-lg-1 col-sm-1">
+        </div>
+    </div>
+  <div style="margin-top:20px;margin-left:550px;">
+      <form  class="choice" style="height:32vh!important">
+      	<div style="margin-top:20px;">
+         <a href="{{url_for('sell')}}" style="margin-left:70px;" ><button type="button" class="btn btn-secondary" style="padding-top:10px!important;padding-bottom:10px!important;padding-right:20px!important;padding-left:20px!important;">SELLER</button></a>
+      
+         <a href="{{url_for('buy')}}" style="margin-left:60px;"><button type="button" class="btn btn-success" style="padding-top:10px!important;padding-bottom:10px!important;padding-right:20px!important;padding-left:20px!important;">BUYER</button></a>
+        </div>
+        <div style="margin-top:30px;">
+        <a href="{{url_for('home')}}" style="margin-left:150px;" ><button type="button" class="btn btn-danger" style="padding-top:10px!important;padding-bottom:10px!important;padding-right:20px!important;padding-left:20px!important;">HOME</button></a></div>
+</form>
+</div>
+</form>
+</div>
+</body>
+{% endblock %}

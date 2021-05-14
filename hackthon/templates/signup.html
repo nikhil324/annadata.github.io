@@ -1,0 +1,78 @@
+{% extends "header.html" %}
+{% block body %}
+
+    <div class="row">
+    	<div class="col-lg-1 col-sm-1">
+        </div>
+    	<div class="col-lg-2 col-sm-2">
+          <img src="/static/anna1.jpg" width="260" height="180">
+    	</div>
+    	<div class="col-lg-2 col-sm-2">
+    		 <img src="/static/anna3.jpg" width="260" height="180">
+    	</div>
+    	<div class="col-lg-2 col-sm-2">
+    	 <img src="/static/anna4.jpg" width="260" height="180">	
+    	</div>
+    	<div class="col-lg-2 col-sm-2">
+    		 <img src="/static/anna5.jpg" width="260" height="180">
+         </div>
+    	<div class="col-lg-2 col-sm-2">
+    		 <img src="/static/anna7.jpg" width="260" height="180">
+    	</div>
+    	<div class="col-lg-1 col-sm-1">
+        </div>
+    </div>
+    <div class="container" style="margin-top:20px;border:2px solid grey;box-shadow:10px 5px 5px 5px;padding: 30px;">
+<form action="/register" method="post">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="id">Aadhar No as Unique Id** </label>
+      <input type="text" class="form-control" id="id" name="id">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password**</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password" name="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="add">Address</label>
+    <input type="text" class="form-control" id="add" placeholder="1234 Main St" name="add">
+  </div>
+  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="village">Village</label>
+      <input type="text" class="form-control" id="Village" name="village">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="state">State</label>
+      <select id="state" class="form-control" id="state" name="state">
+        <option selected>Choose...</option>
+        <option>Uttar pradesh</option>
+      </select>
+    </div>
+    
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="phone">Contact No</label>
+      <input type="text" class="form-control" id="phone" name="phone">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+</div>
+</body>   
+{% endblock %} 

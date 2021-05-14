@@ -1,0 +1,77 @@
+{% extends "header.html" %}
+{% block body %}
+
+    <div class="row">
+    	<div class="col-lg-1 col-sm-1">
+        </div>
+    	<div class="col-lg-2 col-sm-2">
+          <img src="/static/anna1.jpg" width="260" height="180">
+    	</div>
+    	<div class="col-lg-2 col-sm-2">
+    		 <img src="/static/anna3.jpg" width="260" height="180">
+    	</div>
+    	<div class="col-lg-2 col-sm-2">
+    	 <img src="/static/anna4.jpg" width="260" height="180">	
+    	</div>
+    	<div class="col-lg-2 col-sm-2">
+    		 <img src="/static/anna5.jpg" width="260" height="180">
+         </div>
+    	<div class="col-lg-2 col-sm-2">
+    		 <img src="/static/anna7.jpg" width="260" height="180">
+    	</div>
+    	<div class="col-lg-1 col-sm-1">
+        </div>
+    </div>
+<div class="container" style="margin-top:20px;border:2px solid grey;box-shadow:10px 5px 5px 5px;padding: 30px;">
+<form action="/seller" method="post">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="id">Commodity**</label>
+      <input type="text" class="form-control" id="id" name="Commodity">
+    </div>
+     <div class="form-group col-md-6">
+      <label for="id">Quantity**</label>
+      <input type="text" class="form-control" id="id" name="Quantity">
+    </div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="id">State**</label>
+      <input type="text" class="form-control" id="id" name="State">
+    </div>
+     <div class="form-group col-md-6">
+      <label for="id">Aadhar No as unique Id**</label>
+      <input type="text" class="form-control" id="id" name="id">
+    </div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="id">Max-Price-Min-Price**</label>
+      <input type="text" class="form-control" id="id" name="Max-Min Price">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="id">Date**</label>
+      <input type="text" class="form-control" id="id" name="Date">
+    </div>
+</div>
+<div class="form-row">
+     <div class="form-group col-md-6">
+      <label for="id">Contact No.**</label>
+      <input type="text" class="form-control" id="id" name="Contact">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="id">Email_id**</label>
+      <input type="text" class="form-control" id="id" name="email">
+    </div>
+</div>
+<div class="form-row">
+     <div class="form-group col-md-6">
+      <label for="id">Name**</label>
+      <input type="text" class="form-control" id="id" name="name">
+    </div>
+</div>
+ <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</body>
+{% endblock %}
